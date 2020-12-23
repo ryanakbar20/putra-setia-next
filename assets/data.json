@@ -1,0 +1,472 @@
+{
+  "carousel": {
+    "message": "success",
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "title": "Ini Adalah Contoh Title Carousel Ke-1",
+        "subTitle": "Ini Adalah Subtitle Ke-1",
+        "imageUrl": "./image.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Ini Adalah Contoh Title Carousel Ke-2",
+        "subTitle": "Ini Adalah Subtitle Ke-2",
+        "imageUrl": "./image.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Ini Adalah Contoh Title Carousel Ke-3",
+        "subTitle": "Ini Adalah Subtitle Ke-3",
+        "imageUrl": "./image.jpg"
+      }
+    ]
+  },
+  "about": {
+    "message": "success",
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "title": "Sejarah Perkembangan Pencak Silat Putra Setia",
+        "content": "Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "imageUrl": "./image.jpg"
+      }
+    ]
+  },
+  "organization": {
+    "message": "success",
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      },
+      {
+        "id": 2,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      },
+      {
+        "id": 3,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      },
+      {
+        "id": 4,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      },
+      {
+        "id": 5,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      },
+      {
+        "id": 6,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      },
+      {
+        "id": 7,
+        "name": "AKP Aries Eko",
+        "position": "Ketua Harian",
+        "ImageUrl": "./organization.png"
+      }
+    ]
+  },
+  "branch": {
+    "message": "success",
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "twig": "Jatiasih",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "twig": "Jatisampurna",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "twig": "Pondok Gede Permai",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "twig": "Jatiasih",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "twig": "Jatisampurna",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "twig": "Pondok Gede Permai",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "twig": "Jatiasih",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "twig": "Jatisampurna",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "twig": "Pondok Gede Permai",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "twig": "Jatiasih",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "twig": "Jatisampurna",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "twig": "Pondok Gede Permai",
+        "branch": "Bekasi Raya",
+        "address": "Jl. Wibawa Mukti 2, Blok C no 2. RT001/002, Jatiasih - Bekasi",
+        "guruMuda": "Barinas",
+        "contact": "085776647086",
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "galery": {
+    "message": "success",
+    "code": 200,
+    "data": [
+      {
+        "id": 1,
+        "imageUrl": "./image.jpg",
+        "desc": "Foto Bersama Di Padepokan",
+        "location": "Padepokan Pencaksilat TMII",
+        "date": "20 Juni 2020"
+      },
+      {
+        "id": 2,
+        "imageUrl": "./image.jpg",
+        "desc": "Foto Bersama Di Padepokan",
+        "location": "Padepokan Pencaksilat TMII",
+        "date": "20 Juni 2020"
+      },
+      {
+        "id": 3,
+        "imageUrl": "./image.jpg",
+        "desc": "Foto Bersama Di Padepokan",
+        "location": "Padepokan Pencaksilat TMII",
+        "date": "20 Juni 2020"
+      },
+      {
+        "id": 4,
+        "imageUrl": "./image.jpg",
+        "desc": "Foto Bersama Di Padepokan",
+        "location": "Padepokan Pencaksilat TMII",
+        "date": "20 Juni 2020"
+      }
+    ]
+  },
+  "popularNews": {
+    "message": "success",
+    "code": 200,
+    "title": "Berita Populer",
+    "data": [
+      {
+        "id": 1,
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 2,
+            "url": "./image.jpg"
+          }
+        ],
+        "title": "Pesilat Putra Setia Berhasil Menembus Pra Pekan Olahraga Nasional 2020",
+        "content": "Ikatan Seni Membela Diri (ISMD) Putra Setia sudah melaksanakan kegiatannya pada awal tahun 1980 an di daerah kampung Bulak Klender, Jakarta Timur.",
+        "date": "20 Juni 2020",
+        "location": "Jakarta"
+      },
+      {
+        "id": 2,
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 2,
+            "url": "./image.jpg"
+          }
+        ],
+        "title": "Pesilat Putra Setia Berhasil Menembus Pra Pekan Olahraga Nasional 2020",
+        "content": "Ikatan Seni Membela Diri (ISMD) Putra Setia sudah melaksanakan kegiatannya pada awal tahun 1980 an di daerah kampung Bulak Klender, Jakarta Timur.",
+        "date": "20 Juni 2020",
+        "location": "Jakarta"
+      }
+    ]
+  },
+  "newNews": {
+    "message": "success",
+    "code": 200,
+    "title": "Berita Terbaru",
+    "data": [
+      {
+        "id": 1,
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 2,
+            "url": "./image.jpg"
+          }
+        ],
+        "title": "Pesilat Putra Setia Berhasil Menembus Pra Pekan Olahraga Nasional 2020",
+        "content": "Ikatan Seni Membela Diri (ISMD) Putra Setia sudah melaksanakan kegiatannya pada awal tahun 1980 an di daerah kampung Bulak Klender, Jakarta Timur.",
+        "date": "20 Juni 2020",
+        "location": "Jakarta"
+      },
+      {
+        "id": 2,
+        "imageUrl": [
+          {
+            "id": 1,
+            "url": "./image.jpg"
+          },
+          {
+            "id": 2,
+            "url": "./image.jpg"
+          }
+        ],
+        "title": "Pesilat Putra Setia Berhasil Menembus Pra Pekan Olahraga Nasional 2020",
+        "content": "Ikatan Seni Membela Diri (ISMD) Putra Setia sudah melaksanakan kegiatannya pada awal tahun 1980 an di daerah kampung Bulak Klender, Jakarta Timur.",
+        "date": "20 Juni 2020",
+        "location": "Jakarta"
+      }
+    ]
+  }
+}
