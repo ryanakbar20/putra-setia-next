@@ -5,7 +5,8 @@ export default function Organization({ data, theme }) {
 
   useEffect(() => {
     theme === 'light'
-    && setClassName([...ClassName, 'light']);
+    ? setClassName([...ClassName, 'light'])
+    : setClassName(['organization', 'pt-3', 'pb-3']);
   }, [theme]);
 
   return (
@@ -16,7 +17,7 @@ export default function Organization({ data, theme }) {
             <h4>Struktur Organisasi</h4>
           </div>
         </div>
-        <div className="row mt-4">
+        <div className="row mt-4 ml-5">
           {data.data.map((item, index) => {
             return (
               <div key={index} className="col-6 col-md-4 col-lg-3">

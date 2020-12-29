@@ -6,7 +6,8 @@ export default function LargeCard({ theme, data }) {
  
   useEffect(() => {
     theme === 'light'
-    && setClassName(['light']);
+    ? setClassName(['light'])
+    : setClassName([]);
   }, [theme]);
 
   return (

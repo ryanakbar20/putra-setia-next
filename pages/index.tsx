@@ -35,7 +35,7 @@ export default function Landing() {
   return (
     <div>
       <Head>
-        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <link rel="icon" href="https://pasebanbekasiraya.files.wordpress.com/2016/09/putra_setia.jpg?w=645" />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
           rel="stylesheet"

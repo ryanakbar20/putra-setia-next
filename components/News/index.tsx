@@ -9,6 +9,9 @@ export default function News({ data, theme }) {
     if (theme === 'light') {
       setClassName([...ClassName, 'light']);
       setSmallClass([...SmallClass, 'light']);
+    } else {
+      setClassName(['news-item', 'text-left']);
+      setSmallClass(['row', 'mt-5', 'justify-content-center', ' news-small']);
     }
   }, [theme]);
 

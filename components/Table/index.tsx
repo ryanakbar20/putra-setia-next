@@ -1,9 +1,9 @@
 import {useEffect, useState} from 'react';
 
 export default function Table({ data, theme }) {
-  const [ClassName, setClassName] = useState( ['card', 'shadow']);
-  const [TableClass, setTableClass] = useState( ['table']);
-  const [ButtonClass, setButtonClass] = useState( ['btn', 'btn-sm']);
+  const [ClassName, setClassName] = useState(['card', 'shadow']);
+  const [TableClass, setTableClass] = useState(['table']);
+  const [ButtonClass, setButtonClass] = useState(['btn', 'btn-sm']);
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -11,7 +11,9 @@ export default function Table({ data, theme }) {
       setTableClass([...TableClass, 'dark']);
       setButtonClass([...ButtonClass, 'btn-secondary']);
     } else {
-      setButtonClass([...ButtonClass, 'btn-primary']);
+      setButtonClass(['btn', 'btn-sm', 'btn-primary']);
+      setClassName(['card', 'shadow']);
+      setTableClass(['table']);
     }
   }, [theme]);
 
