@@ -42,9 +42,9 @@ export default function Footer({theme}) {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className={theme !== 'dark' && 'light'}>
                 <div className="d-flex justify-content-center py-2">
-                    <p className="text-center text-white">
+                    <p className={`text-center ${theme !== 'dark' ? 'text-body' : 'text-white'}`}>
                         Copyright ©2021 Putra Setia | All Rights Reserved
                     </p>
                 </div>
