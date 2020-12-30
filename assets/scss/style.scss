@@ -374,6 +374,14 @@ section.light {
 
   .news-item,
   .news-small {
+
+    cursor: pointer;
+
+    &:hover {
+      border-width: 5px;
+      border-color: aqua;
+    }
+
     img {
       max-height: 10rem;
     }
@@ -411,5 +419,30 @@ section.light {
     .news-content {
       max-width: 30rem;
     }
+  }
+}
+
+.footer {
+  background-color: #121d29f1 !important;
+
+  i {
+    @include font-size(2.2rem);
+    color: $white;
+  }
+
+  &.light {
+    background-color: #595959f1 !important;
+  }
+}
+
+.article {
+
+  &.header {
+    background-color: $dark2 !important;
+  }
+
+  small {
+    @include font-size(1rem);
+    color: $orange;
   }
 }

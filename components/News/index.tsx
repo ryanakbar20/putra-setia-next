@@ -1,7 +1,9 @@
 import {useEffect, useState} from 'react';
 import Button from '../Button';
+import {useRouter} from 'next/router';
 
 export default function News({ data, theme }) {
+  const router = useRouter();
   const [ClassName, setClassName] = useState(['news-item', 'text-left']);
   const [SmallClass, setSmallClass] = useState(['row', 'mt-5', 'justify-content-center', ' news-small']);
 
@@ -22,7 +24,10 @@ export default function News({ data, theme }) {
         {data.data.map((item) => {
           return (
             <div key={item.id} className="d-md-none">
-              <div className={SmallClass.join(' ')}>
+              <div 
+                className={SmallClass.join(' ')}
+                onClick={() => router.push(`/article/${item.id}`).then(() => window.scrollTo(0, 0))}
+              >
                 <div className="col-10">
                   <h5>{item.title}</h5>
                 </div>
@@ -45,7 +50,10 @@ export default function News({ data, theme }) {
           return (
             <div key={item.id} className="d-none d-md-flex row mt-5">
               <div className="col">
-                <div className={ClassName.join(' ')}>
+                <div 
+                  className={ClassName.join(' ')}
+                  onClick={() => router.push(`/article/${item.id}`).then(() => window.scrollTo(0, 0))}
+                >
                   <div className="d-flex flex-col">
                     <img
                       src={item.imageUrl[0].url}
