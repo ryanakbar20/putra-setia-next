@@ -20,9 +20,9 @@ export default function Article({theme}) {
                 <div className="container py-5">
                     <div className="row mt-5">
                         <div className="col">
-                            <h2 className={ContentClass.join(' ')}>
+                            <h1 className={ContentClass.join(' ')}>
                                 Sejarah Perkembangan Pencak Silat Putra Setia
-                            </h2>
+                            </h1>
                             <small className="text-left my-3">
                                 18 Juni 2020
                             </small>

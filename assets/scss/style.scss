@@ -430,6 +430,10 @@ section.light {
     color: $white;
   }
 
+  p {
+    @include font-size(.8rem);
+  }
+
   &.light {
     background-color: #595959f1 !important;
   }

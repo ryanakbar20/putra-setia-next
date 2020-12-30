@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Navbar,
   Hero,
@@ -36,7 +36,7 @@ export default function Landing() {
   return (
     <>
       <Head />
-      <Navbar onClick={handleTheme} theme={Theme} />
+      <Navbar onClick={handleTheme} theme={Theme}/>
       <Hero data={data.carousel} />
       <LargeCard theme={Theme} data={data.about} />
       <Organization data={data.organization} theme={Theme} />
