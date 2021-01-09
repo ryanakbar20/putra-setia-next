@@ -54,7 +54,7 @@ export default function News({ data, theme }) {
                   className={ClassName.join(' ')}
                   onClick={() => router.push(`/article/${item.id}`).then(() => window.scrollTo(0, 0))}
                 >
-                  <div className="d-flex flex-col">
+                  <div className="d-flex flex-col news-box">
                     <img
                       src={item.imageUrl[0].url}
                       alt="..."

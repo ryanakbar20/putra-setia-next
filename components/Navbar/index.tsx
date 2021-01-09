@@ -46,7 +46,7 @@ export default function HeaderCustom({ onClick, theme }) {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav ml-auto d-flex flex-row ">
             <li className="nav-item active mr-5">
-              <a className="nav-link" onClick={() => router.push('/')}>
+              <a className="nav-link" href="#home" onClick={() => router.push('/').then(() => window.scrollTo({ top: 0, behavior: 'smooth' }))}>
                 Home
               </a>
             </li>
@@ -56,7 +56,7 @@ export default function HeaderCustom({ onClick, theme }) {
               </a>
             </li>
             <li className="nav-item active mr-5">
-              <a className="nav-link" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>
+              <a className="nav-link" href="#contact" onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })}>
                 Contact
               </a>
             </li>

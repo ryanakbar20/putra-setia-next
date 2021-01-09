@@ -205,6 +205,18 @@ section.light {
     background-color: $dark1 !important;
     border: none;
 
+    .row {
+      cursor: pointer;
+      border-radius: .5rem;
+
+      &:hover {
+        transition: box-shadow .3s;
+        box-shadow: 2px 4px 8px -2px rgba(0,0,0,0.53);
+        -webkit-box-shadow: 2px 4px 8px -2px rgba(0,0,0,0.53);
+        -moz-box-shadow: 2px 4px 8px -2px rgba(0,0,0,0.53);
+      }
+    }
+
     img {
       width: 20rem !important;
     }
@@ -344,7 +356,12 @@ section.light {
   font-weight: 500;
   color: $white;
   margin-top: 2rem;
+  cursor: pointer;
   @include font-size(1.5rem);
+
+  &:hover {
+    opacity: 10%;
+  }
 
   @media only screen and (max-width: 767px) {
     @include font-size(1.1rem);
@@ -376,10 +393,14 @@ section.light {
   .news-small {
 
     cursor: pointer;
-
+    padding: .5rem;
+      
     &:hover {
-      border-width: 5px;
-      border-color: aqua;
+      transition: box-shadow .3s;
+      box-shadow: 2px 4px 8px -2px rgba(0,0,0,0.53);
+      -webkit-box-shadow: 2px 4px 8px -2px rgba(0,0,0,0.53);
+      -moz-box-shadow: 2px 4px 8px -2px rgba(0,0,0,0.53); 
+      border-radius: .5rem;
     }
 
     img {

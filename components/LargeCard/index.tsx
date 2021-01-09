@@ -13,7 +13,7 @@ export default function LargeCard({ theme, data }) {
   return (
     <section className={ClassName.join(' ')}>
       <div className="container pt-5 pb-5 card-large">
-        <h4>Tentang Kami</h4>
+        <h4 className="text-center">Tentang Kami</h4>
         <div className="card mt-5">
           {data.data.map((item) => {
             return (
